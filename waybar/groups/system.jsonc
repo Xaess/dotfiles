@@ -1,0 +1,78 @@
+{
+    "group/system": {
+        "orientation": "horizontal",
+        "modules": [
+            "cpu",
+            "memory",
+            "disk",
+            "temperature",
+            "battery"
+        ]
+    },
+    "cpu": {
+        "interval": 1,
+        "format": " {icon0}{icon1}{icon2}{icon3}{usage:>2}%",
+        "format-icons": [
+            "▁",
+            "▂",
+            "▃",
+            "▄",
+            "▅",
+            "▆",
+            "▇",
+            "█"
+        ]
+    },
+    "memory": {
+        "interval": 30,
+        "format": "󰍛  {}% ",
+        "max-length": 10
+    },
+    "disk": {
+        "interval": 30,
+        "format": "󰋊 {percentage_free}%",
+        "paths": [
+            "/"
+        ]
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "  {temperatureC}°C "
+    },
+    "battery": {
+        "interval": 60,
+        "format": "{icon} {capacity}%",
+        "states": {
+            "warning": 40,
+            "critical": 20
+        },
+        "format-icons": {
+            "default": [
+                "󰂎",
+                "󰁺",
+                "󰁻",
+                "󰁼",
+                "󰁽",
+                "󰁾",
+                "󰁿",
+                "󰂀",
+                "󰂁",
+                "󰂂",
+                "󰁹"
+            ],
+            "charging": [
+                "󰢟",
+                "󰢜",
+                "󰂆",
+                "󰂇",
+                "󰂈",
+                "󰢝",
+                "󰂉",
+                "󰢞",
+                "󰂊",
+                "󰂋",
+                "󰂅"
+            ]
+        }
+    }
+}

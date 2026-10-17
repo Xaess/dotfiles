@@ -1,0 +1,21 @@
+#wireplumber.sink {
+    background-color: @bg0;
+    color: @green;
+    min-width: 20px;
+}
+
+#wireplumber.sink.muted {
+    color: @red;
+    min-width: 20px;
+}
+
+#wireplumber.source {
+    background-color: @bg0;
+    color: @orange;
+    min-width: 20px;
+    border-radius: 0 0 8px 0;
+}
+
+#wireplumber.muted {
+    color: @green;
+}

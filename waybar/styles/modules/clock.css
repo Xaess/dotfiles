@@ -1,0 +1,8 @@
+#clock {
+    min-width: 100px;
+    background-color: @bg0;
+    color: @fg;
+    border-radius: 0 0 8px 8px;
+    font-weight: 800;
+    margin-left: 8px;
+}

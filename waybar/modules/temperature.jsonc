@@ -1,0 +1,6 @@
+{
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "  {temperatureC}°C "
+    }
+}

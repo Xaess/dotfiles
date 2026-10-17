@@ -1,0 +1,18 @@
+#workspaces {
+    min-width: 120px;
+    background-color: @bg0;
+    border-radius: 0 0 8px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#workspaces button {
+    color: @fg;
+    margin: 8px;
+}
+
+#workspaces button.active {
+    color: @yellow;
+    font-weight: 800;
+    transition: none;
+}

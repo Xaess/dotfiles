@@ -1,0 +1,13 @@
+#cpu {
+    padding-left: 12px;
+    border-radius: 0 0 0 8px;
+    color: @fg;
+}
+
+.cpu-high {
+    color: @red;
+}
+
+.cpu-moderate {
+    color: @yellow
+}

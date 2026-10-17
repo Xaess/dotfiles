@@ -1,0 +1,45 @@
+#tray {
+    background-color: @bg0;
+    padding-left: 8px;
+}
+
+#tray>.passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray>.needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+#tray menu {
+    background-color: @bg0;
+    color: @yellow;
+    border-radius: 0 0 12px 12px;
+    padding: 32px;
+}
+
+#tray menu menuitem {
+    background-color: transparent;
+    color: @fg;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+#tray menu menuitem:hover {
+    background-color: #45475a;
+    color: #ffffff;
+}
+
+#tray menu menuitem:disabled label {
+    color: #6c7086;
+}
+
+#tray menu separator {
+    background-color: @yellow;
+    min-height: 1px;
+    margin: 4px 0;
+}
+
+#tray menu menuitem:first-child label {
+    color: @yellow;
+}

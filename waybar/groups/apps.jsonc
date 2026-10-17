@@ -1,0 +1,10 @@
+{
+    "group/apps": {
+        "orientation": "horizontal",
+        "modules": [
+            "tray",
+            "wireplumber#sink",
+            "wireplumber#source"
+        ]
+    }
+}

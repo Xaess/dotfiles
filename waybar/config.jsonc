@@ -1,0 +1,24 @@
+{
+    "layer": "top",
+    "width": 1920,
+    "heigh": 16,
+    "modules-left": [
+        "group/apps"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "hyprland/workspaces",
+        "group/system"
+    ],
+    "include": [
+        "~/.config/waybar/groups/system.jsonc",
+        "~/.config/waybar/groups/apps.jsonc",
+        "~/.config/waybar/modules/clock.jsonc",
+        "~/.config/waybar/modules/wireplumber.jsonc",
+        "~/.config/waybar/modules/workspaces.jsonc",
+        "~/.config/waybar/modules/tray.jsonc",
+        "~/.config/waybar/modules/temperature.jsonc"
+    ]
+}

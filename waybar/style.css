@@ -1,0 +1,16 @@
+@import url("styles/colors.css");
+@import url("styles/system.css");
+@import url("styles/modules/workspaces.css");
+@import url("styles/modules/clock.css");
+@import url("styles/modules/wireplumber.css");
+
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+window#waybar {
+    background: transparent;
+}

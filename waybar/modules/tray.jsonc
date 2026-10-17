@@ -1,0 +1,10 @@
+{
+    "tray": {
+        "spacing": 10,
+        "icon-size": 12,
+        "orders": {
+            "discord": 99,
+            "spotify": 98
+        }
+    }
+}

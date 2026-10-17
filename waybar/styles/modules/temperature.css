@@ -1,0 +1,11 @@
+#temperature {
+    color: @green;
+}
+
+#temperature.critical {
+    color: @red;
+}
+
+#temperature.warning {
+    color: @yellow;
+}
