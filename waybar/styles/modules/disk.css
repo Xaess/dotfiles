@@ -1,3 +1,4 @@
 #disk {
     color: @fg;
+    min-width: 40px;
 }

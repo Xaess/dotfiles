@@ -2,6 +2,7 @@
     padding-left: 12px;
     border-radius: 0 0 0 8px;
     color: @fg;
+    min-width: 60px;
 }
 
 .cpu-high {

@@ -1,7 +1,7 @@
 {
     "tray": {
         "spacing": 10,
-        "icon-size": 12,
+        "icon-size": 16,
         "orders": {
             "discord": 99,
             "spotify": 98

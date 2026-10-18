@@ -1,5 +1,6 @@
 #temperature {
     color: @green;
+    min-width: 40px;
 }
 
 #temperature.critical {

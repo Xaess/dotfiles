@@ -1,3 +1,4 @@
 #memory {
     color: @fg;
+    min-width: 40px;
 }

@@ -11,7 +11,7 @@
     },
     "cpu": {
         "interval": 1,
-        "format": " {icon0}{icon1}{icon2}{icon3}{usage:>2}%",
+        "format": "{icon0}{icon1}{icon2}{icon3}{usage:>2}%",
         "format-icons": [
             "▁",
             "▂",
@@ -25,7 +25,7 @@
     },
     "memory": {
         "interval": 30,
-        "format": "󰍛  {}% ",
+        "format": "󰍛{}% ",
         "max-length": 10
     },
     "disk": {
@@ -37,7 +37,7 @@
     },
     "temperature": {
         "critical-threshold": 80,
-        "format": "  {temperatureC}°C "
+        "format": "{temperatureC}°C "
     },
     "battery": {
         "interval": 60,
