@@ -34,7 +34,6 @@ isntall_everything() {
 install_hypr() {
     echo -e "\e[33m Installing hyperland configurations.\e[0m"
     cp -r "hypr/." "$HOME/.config/hypr/"
-    rm "$HOME/.config/hypr/modules/monitors.lua"
     hyprctl configerrors
     echo -e "\e[32m󰩐 hyperland configurations installed !\e[0m"
 }

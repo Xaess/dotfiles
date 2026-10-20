@@ -42,6 +42,7 @@ These dotfiles are comon to my laptop and my desktop. So there may be files and 
 - [swaync](https://github.com/ErikReider/SwayNotificationCenter), `swayos` and `swayosd-client`
 - [mpvpaper](https://github.com/GhostNaN/mpvpaper) if you want to use a video as wallpaper. You can use [awww](https://codeberg.org/LGFae/awww) or [hyprpaper](https://wiki.hypr.land/Hypr-Ecosystem/hyprpaper/) instead.
 - [wireplumber](https://pipewire.pages.freedesktop.org/wireplumber/)
+- [hyprshot](https://github.com/Gustash/hyprshot) for screenshots 
 
 ### Icons and theme I use
 - 󰇀 cursor : [Vimix cursors theme](https://www.gnome-look.org/p/1358330)

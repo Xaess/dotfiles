@@ -63,7 +63,7 @@
         },
         {
           "label": "󰌾",
-          "command": "$HOME/.config/hypr/scripts/lock-session.sh"
+          "command": "$HOME/.local/share/quickshell-lockscreen/lock.sh"
         },
         {
           "label": "󰍃",
@@ -83,15 +83,11 @@
         },
         {
           "label": "󰖩",
-          "command": "$HOME/.local/bin/shved/rofi-menus/wifi-menu.sh"
+          "command": "nm-connection-editor"
         },
         {
           "label": "󰂯",
           "command": "blueman-manager"
-        },
-        {
-          "label": "",
-          "command": "obs"
         }
       ]
     }
