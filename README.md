@@ -15,10 +15,9 @@ These dotfiles are comon to my laptop and my desktop. So there may be files and 
 ## TODO
 
 - Finish the `hyprwat` config to make it more coherent with waybar and use more features like wallpaper selector or workspace overview.
-- Add/setup a theme to `kitty` so it's more coherent whith the system,
+- Add/setup a theme to `kitty` so it's more coherent whith the system.
 - Make all the buttons of the `swaync` config work with a full install/setup procedure.
-- Update `install.sh` to make it look better and add an "install everything" option.
-- A backup script.
+
 
 ## Components
 <span style='color:green'>󰩐 </span> 󰁔 Finished, may change in the future.
