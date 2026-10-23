@@ -40,7 +40,7 @@ These dotfiles are comon to my laptop and my desktop. So there may be files and 
 - [hyprwat](https://github.com/zackb/hyprwat)
 - [kitty](https://sw.kovidgoyal.net/kitty/)
 - [swaync](https://github.com/ErikReider/SwayNotificationCenter), `swayos` and `swayosd-client`
-- [mpvpaper](https://github.com/GhostNaN/mpvpaper) if you want to use a video as wallpaper. You can use [awww](https://codeberg.org/LGFae/awww) or [hyprpaper](https://wiki.hypr.land/Hypr-Ecosystem/hyprpaper/) instead.
+- [mpvpaper](https://github.com/GhostNaN/mpvpaper) if you want to use a video as wallpaper. You can use [awww](https://codeberg.org/LGFae/awww) or [hyprpaper](https://wiki.hypr.land/Hypr-Ecosystem/hyprpaper/) instead (<span style='color: orange'>and update `hypr/modules/autostart.lua`</span>).
 - [wireplumber](https://pipewire.pages.freedesktop.org/wireplumber/)
 - [hyprshot](https://github.com/Gustash/hyprshot) for screenshots 
 

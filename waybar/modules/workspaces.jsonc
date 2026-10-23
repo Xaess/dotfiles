@@ -5,6 +5,7 @@
         "format-icons": {
             "active": "󰍹",
             "default": "󰍹"
-        }
+        },
+        "sort-by-id": true
     }
 }
